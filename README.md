@@ -73,3 +73,5 @@ Reboot
 ```
 reboot
 ```
+### Fix display position
+Setting->Display drag screen the way you like it.
