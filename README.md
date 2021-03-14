@@ -1,5 +1,9 @@
 # Xorg Config
-Xorg configuration file for Intel and Nvidia driver dual display
+Xorg configuration file for Intel and Nvidia driver dual display.
+Tested in: <br>
+Debian 10<br>
+Kali Linux 2021.1<br>
+Ubuntu 20.10<br>
 
 ## Situation
 This configuration file is for those who wants to use external **monitor to a laptop** having **Intel GPU** for internal display and **NVIDIA as discrete GPU** which outputs through HDMI or DP.
