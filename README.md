@@ -106,16 +106,15 @@ reboot
 **To get Providers name run**<br>
 ```bash
 xrandr --listproviders
-```<br>
-Output maybe something like this<br>
+```
+Output maybe something like this: <br>
 ```
 Providers: number : 2
 Provider 0: id: 0x1b8 cap: 0x1, Source Output crtcs: 4 outputs: 1 associated providers: 1 name:NVIDIA-0
 Provider 1: id: 0x1fa cap: 0x2, Sink Output crtcs: 3 outputs: 1 associated providers: 1 name:modesetting
-
 ```
 **To output on secondary display run**<br>
-*making sure that you're not running wayland if you're not sure use any other desktop environment other then Gnome*
+*make sure that you're not running wayland if you're not sure use any other desktop environment other then Gnome*
 ```bash
 xrandr --setprovideroutputsource modesetting NVIDIA-0
 ```
