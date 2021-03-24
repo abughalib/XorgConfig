@@ -59,7 +59,7 @@ cd XorgConfig
 ### Configure xconf file according to your output.
 **Get Bus ID**
 ```
-lscpi | grep VGA
+lspci | grep VGA
 ```
 Output maybe something like this<br>
 ```
